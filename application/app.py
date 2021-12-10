@@ -33,16 +33,12 @@ while True:
             headers = bws.headers
 
             total_requests = bws.api_request( url=url, headers=headers )
-            aux_link    = bws.get_links( total_requests )
-            df_showcase = bws.first_scrapy( total_requests )
-            df_details  = bws.second_scrapy( aux_link )
-            df_raw = bws.save_scrapy( df_showcase, df_details )
+            aux_link       = bws.get_links( total_requests )
+            df_details     = bws.second_scrapy( aux_link )
+            df_raw         = bws.save_scrapy( df_details )
     
             bws.send_email( sender_email=bws.sender_email, sender_pass=bws.sender_pass, receiver_email=email, df_raw=df_raw )
 
             pa.alert('Web Scrapinf Finalizado, Por favor, cheque o email: ' + str(email) )
 
 window.close()
-
-
-
