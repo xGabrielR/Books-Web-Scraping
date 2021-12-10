@@ -27,3 +27,10 @@ Beautiful Soup Web scraping and email sender application.
 
 ![Test](https://user-images.githubusercontent.com/75986085/145502076-6abf2cd4-2968-41e5-a218-f124e0758cd3.png)
 
+<ul>
+  <dl>
+    <dt>2.1. Data Cleaning.</dt>
+      <li>In the first cycle, just cleaning all books prices .</li>
+  </dl>
+</ul>
+
