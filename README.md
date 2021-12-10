@@ -23,4 +23,7 @@ Beautiful Soup Web scraping and email sender application.
 
 <h2>2. Solution Strategy.</h2>
 <p>Collect Data from books with Beautiful Soup python library, save the book name, price, category and stock quantity on pandas dataframe, convert to csv file and send for a user with email.</p>
-<p>All this steps on app with layout.</p>
+<p>All this steps on app with easy layout for user, he just need to put her or someone email.</p>
+
+![Test](https://user-images.githubusercontent.com/75986085/145502076-6abf2cd4-2968-41e5-a218-f124e0758cd3.png)
+
