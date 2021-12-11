@@ -37,7 +37,7 @@ Beautiful Soup Web scraping and email sender application.
       <p>In the first cycle, just cleaning all books prices with inflection library.</p>
   </dl>
     <dl>
-    <dt>2.3. Final project.</dt>
+    <dt>2.3. Final Project.</dt>
       <p>Used pysimplegui for simple user interface email request for send the results of web scraping.</p>
   </dl>
 </ul>
