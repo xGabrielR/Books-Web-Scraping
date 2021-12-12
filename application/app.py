@@ -1,3 +1,4 @@
+import re
 import pyautogui as pa
 import PySimpleGUI as sg
 import web_scraping as wb
@@ -21,7 +22,8 @@ while True:
     if event == 'Enviar':
         email = values['email']
 
-        if len(email) < 13:
+        regex = '(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)'
+        if not bool( re.match( regex, email ) ):
             pa.alert('Escreva um email válido')
 
         else:
