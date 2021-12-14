@@ -29,15 +29,19 @@ Beautiful Soup Web scraping and email sender application.
 
 <ul>
   <dl>
-    <dt>2.1. Data Collection.</dt>
+    <dt>2.1. Visual Product.</dt>
+    <p>First step is to define what will be delivered, for this step used simple email sender app.</p>
+  </dl>
+  <dl>
+    <dt>2.2. Data Collection.</dt>
     <p>Used Beautiful Soup library and requests for web scraping.</p>
   </dl>
     <dl>
-    <dt>2.2. Data Cleaning.</dt>
+    <dt>2.3. Data Cleaning.</dt>
       <p>In the first cycle, just cleaning all books prices with inflection library.</p>
   </dl>
     <dl>
-    <dt>2.3. Final Project.</dt>
+    <dt>2.4. Final Project.</dt>
       <p>Used pysimplegui for simple user interface email request for send the results of web scraping.</p>
   </dl>
 </ul>
